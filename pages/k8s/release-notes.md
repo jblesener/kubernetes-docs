@@ -13,7 +13,6 @@ layout: [base, ubuntu-com]
 toc: False
 ---
 
-
 # 1.17
 
 ### December 10, 2019 -  [charmed-kubernetes-xxx](https://api.jujucharms.com/charmstore/v5/charmed-kubernetes-xxx/archive/bundle.yaml)
@@ -21,6 +20,12 @@ toc: False
 Before upgrading, please read the [upgrade notes](/kubernetes/docs/upgrade-notes).
 
 ## What's new
+
+- Nagios checks
+
+Additional Nagios checks have been added for the `kubernetes-master` and `kubernetes-worker` charms.
+These checks enhance the monitoring and reporting available via Nagios by collecting data on node
+registration and API server connectivity.
 
 ## Fixes
 
